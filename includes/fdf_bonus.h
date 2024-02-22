@@ -6,14 +6,14 @@
 /*   By: echoukri <echoukri@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/24 10:04:26 by echoukri          #+#    #+#             */
-/*   Updated: 2023/05/23 09:01:57 by echoukri         ###   ########.fr       */
+/*   Updated: 2024/02/22 21:11:09 by echoukri         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FDF_BONUS_H
 # define FDF_BONUS_H
 
-# include <mlx.h>
+# include "mlx.h"
 # include <math.h>
 # include <unistd.h>
 # include <stdio.h>

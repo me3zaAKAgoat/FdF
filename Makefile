@@ -19,8 +19,8 @@ MANDATORY_OBJECTS = $(MANDATORY_SOURCES:.c=.o)
 
 BONUS_OBJECTS = $(BONUS_SOURCES:.c=.o)
 
-ifeq ($(OS), Linux)
-	LDLIBRARIES = -Lmlx_linux -lmlx_Linux -L/usr/lib -Imlx_linux -lXext -lX11 -lm -lz
+ifeq ($(shell uname), Linux)
+	LDLIBRARIES = -L/usr/local/lib/ -lmlx_Linux -L/usr/lib -Imlx_linux -lXext -lX11 -lm -lz
 else
 	LDLIBRARIES = -Imlx -lmlx -framework OpenGL -framework AppKit
 endif
