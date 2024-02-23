@@ -43,5 +43,13 @@ Additionally, the project involves managing graphics to display the wireframe mo
 
 The project emphasizes efficient file parsing to read the landscape data from a .fdf file. Students are encouraged to utilize functions from their custom library (libft) for file I/O operations and memory management.
 
+## References
+
+[Wikipedia For matrix calculations](https://en.wikipedia.org/wiki/Matrix_(mathematics))
+
+[Essence of linear algebra by 3blue1brown](https://www.youtube.com/watch?v=fNk_zzaMoSs&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
+
 ## Conclusion:
 The FDF project provides an immersive learning experience in graphics programming, offering students the opportunity to apply fundamental concepts to create a visually engaging wireframe model of a landscape. Through hands-on implementation and problem-solving, students develop essential skills in C programming, graphics programming, and algorithmic thinking.
+
+> **_NOTE:_**  For some reason mlx may not work in the docker container, if that happens and you're on linux all the packages needed are in available in the dockerfile.
