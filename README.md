@@ -52,4 +52,5 @@ The project emphasizes efficient file parsing to read the landscape data from a 
 ## Conclusion:
 The FDF project provides an immersive learning experience in graphics programming, offering students the opportunity to apply fundamental concepts to create a visually engaging wireframe model of a landscape. Through hands-on implementation and problem-solving, students develop essential skills in C programming, graphics programming, and algorithmic thinking.
 
-> **_NOTE:_**  For some reason mlx may not work in the docker container, if that happens and you're on linux all the packages needed are in available in the dockerfile.
+> [!WARNING]
+> For some reason mlx may not work in the docker container, if that happens and you're on linux all the packages needed are in available in the dockerfile.
